@@ -9,17 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <input type="number" name="peso" class="valores" id="peso" placeholder="Peso &lpar;kg&rpar;">
+        <h1>Calcule aqui o seu IMC</h1>
+        <input type="number" name="peso" class="valores" id="peso" placeholder="Peso &lpar;kg&rpar;" required>
 
-        <input type="number" name="altura" class="valores" id="altura" placeholder="altura &lpar;m&rpar;">
+        <input type="number" name="altura" class="valores" id="altura" placeholder="altura &lpar;m&rpar;" required>
 
         <div class="containerres">
-            <p class="txtres1">jhahdhashghasdhgashdgjhas</p>
-            <p class="txtres2">jhahdhashghasdhgashdgjhas</p>
-            <p class="txtres3">jhahdhashghasdhgashdgjhas</p>
+            <p class="txtres1"></p>
+            <p class="txtres2"></p>
         </div>
 
-        <input type="submit" value="calcular" class="botsubmit" onclick="calcular()">
+        <div class="contbutao">
+            <input type="submit" value="Calcular" class="botsubmit" onclick="calcular()" id="submcalc">
+
+            <input type="button" value="Limpar" class="botsubmit" onclick="limpar()">
+        </div>
     </div>
 </body>
     <script src="imc.js"></script>
