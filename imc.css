@@ -60,7 +60,9 @@ body{
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    text-align: center;
 }
+
 
 .container .contbutao .botsubmit:hover{
     background-color: #6495ED;
